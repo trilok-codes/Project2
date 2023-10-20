@@ -1,0 +1,102 @@
+.logo-bg{
+    width: 105px;
+height: 27px;
+flex-shrink: 0;
+
+margin-left: 30px;
+margin-top: 30px;
+}
+.navlink{
+    display:flex;
+    justify-content: center;
+    margin-top: 0px;
+    column-gap: 30px;
+    margin-top: 35px;
+    margin-left: 380px;
+    color: #333;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+
+}
+header{
+    display:flex;
+justify-content: left;
+
+top:10px;
+left:20px;
+position: relative;
+perspective: 10px;
+
+
+
+
+}
+.lock{
+    margin-top: 26px;
+    margin-left: 300px;
+
+}
+.circle{
+    height: 910px;
+    width: 910px;
+    background-color: #FFEEDE;
+    border-radius: 50%;
+    position: absolute;
+    top:-570px;
+    left:470px;
+    z-index: -1;
+    
+}
+.text{ height: 200px;
+    width:300px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+   font-weight: 200px;
+    margin-top: 90px;
+    margin-left: 20px;
+}
+.images{
+    height:250px;
+    width:450px;
+    z-index: 9;
+    display: flex;
+justify-content: right;
+margin-right: 180px;
+position: absolute;
+left:-20px;
+right:70px;
+
+
+    
+}
+.image{
+    width: 340px;
+height: 270px;
+flex-shrink: 0;
+z-index: 8;
+display: flex;
+justify-content: right;
+margin-bottom: 150px;
+position:absolute;
+top:140px;
+left:30px;
+}
+.imagess{
+    display:flex;
+    flex-direction: column;
+   align-items: right;
+   margin-left: 450px;
+   position:absolute;
+   left:300px;
+}
+.container{
+    display:flex;
+    position:relative
+    
+
+}
